@@ -1,6 +1,6 @@
 Function Get-BonneFete {
-    param( [Parameter(Mandatory=$false)][String]$Prenom = "Toi" )
-    $Message ="Bonne Fête $Prenom !"
+    param( [Parameter(Mandatory=$false)][String]$Prenom = "à Toi" )
+    $Message = "Bonne Fête $Prenom !"
     $Anim = @("|","/","-","\","|")
     $CharArray =$Message.ToCharArray()
     $i = 10
