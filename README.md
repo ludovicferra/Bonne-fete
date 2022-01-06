@@ -1,6 +1,8 @@
 # Bonne-fete
 Script animation bonne fête en Powershell
 
+![BonneFete-Exemple](https://github.com/ludovicferra/Bonne-fete/raw/main/BonneFete-Exemple.gif)
+
 ### Utilisation simple en donnant directement la variable prenom :
 
 Get-BonneFete -Prenom "TonPrénom"
